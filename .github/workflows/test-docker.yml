@@ -1,0 +1,11 @@
+name: Test Docker
+
+on: [workflow_dispatch]
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/hello-world-docker-action@main
+        with:
+          who-to-greet: 'Mona the Octocat'
