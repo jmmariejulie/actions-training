@@ -1,0 +1,19 @@
+name: 'Hello world'
+
+description: 'First docker'
+
+input:
+  who-to-greet:
+    description: 'first docker'
+    required: true
+    default: 'epo'
+
+ouputs:
+  time:
+    description: 'the time'
+
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
+  args:
+    - ${{ inputs.who-to-greet }}
