@@ -2,7 +2,7 @@ name: 'Hello world'
 
 description: 'First docker'
 
-input:
+inputs:
   who-to-greet:
     description: 'first docker'
     required: true
