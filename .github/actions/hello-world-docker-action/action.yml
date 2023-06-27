@@ -1,16 +1,16 @@
-name: 'Hello world'
+name: 'Hello World Docker Action'
 
-description: 'First docker'
+descriptioin: 'Our first docker action'
 
 inputs:
   who-to-greet:
-    description: 'first docker'
+    description: 'Who to greet'
     required: true
     default: 'epo'
 
-ouputs:
+outputs:
   time:
-    description: 'the time'
+    description: 'The time we said hello'
 
 runs:
   using: 'docker'
