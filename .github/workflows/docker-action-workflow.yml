@@ -16,5 +16,5 @@ jobs:
       - name: Print Outputs
         run: echo "The time was ${{ steps.hello-action.outputs.time }} when the action said hello"
       - run: echo "#### Workflow details :rocket:" >> $GITHUB_STEP_SUMMARY
-      - run: echo "time: ${{ steps.hello-action.outputs.time }}" >> $GITHUB_STEP_SUMMARY
+     
         
